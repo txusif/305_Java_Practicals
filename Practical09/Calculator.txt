@@ -1,0 +1,46 @@
+private void additionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_additionPerformed
+        // TODO add your handling code here:
+        String a=this.num1.getText();
+        String b=this.num2.getText();
+        int x = Integer.parseInt(a);
+        int y = Integer.parseInt(b);
+        int z= x+y;
+        this.result.setText(" "+z);
+    }//GEN-LAST:event_additionPerformed
+
+private void subtractionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_subtractionActionPerformed
+        // TODO add your handling code here:
+        String a=this.num1.getText();
+        String b=this.num2.getText();
+        int x = Integer.parseInt(a);
+        int y = Integer.parseInt(b);
+        int z= x-y;
+        this.result.setText(" "+z);
+    }//GEN-LAST:event_subtractionActionPerformed
+
+private void multiplicationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_multiplicationActionPerformed
+        // TODO add your handling code here:
+        String a=this.num1.getText();
+        String b=this.num2.getText();
+        int x = Integer.parseInt(a);
+        int y = Integer.parseInt(b);
+        int z= x*y;
+        this.result.setText(" "+z);
+    }//GEN-LAST:event_multiplicationActionPerformed
+
+private void divisionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_divisionActionPerformed
+        // TODO add your handling code here:
+        String a=this.num1.getText();
+        String b=this.num2.getText();
+        int x = Integer.parseInt(a);
+        int y = Integer.parseInt(b);
+        int z= x/y;
+        this.result.setText(" "+z);
+    }//GEN-LAST:event_divisionActionPerformed
+
+private void resetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetActionPerformed
+        // TODO add your handling code here:
+        this.num1.setText(" ");
+        this.num2.setText(" ");
+        this.result.setText(" ");
+    }//GEN-LAST:event_resetActionPerformed
